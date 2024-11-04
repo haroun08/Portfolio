@@ -17,7 +17,7 @@ export default function SoftwareModel(props) {
   
   useFrame((state, delta, xrFrame) => {
     
-    modelRef.current.position.y =  Math.sin(state.clock.elapsedTime);
+    modelRef.current.position.y = -1.5 +   Math.sin(state.clock.elapsedTime)*0.15;
   })
 
   return (
