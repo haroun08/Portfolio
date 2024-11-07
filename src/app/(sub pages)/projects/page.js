@@ -2,8 +2,7 @@ import Image from "next/image";
 import bg from "../../../../public/background/projects-background.png"
 import { projectsData } from "../../data";
 import ProjectList from "../../components/projects";
-import RenderModel from "../../components/RenderModel";
-import SoftwareModel from "../../components/models/3DModel";
+
 
 export default function Home() {
   return (
