@@ -13,7 +13,7 @@ import React from "react";
 import ResponsiveComponent from "../ResponsiveComponent";
 import clsx from "clsx";
 import { motion } from "framer-motion";
-import { SiLeetcode } from "react-icons/si";
+import { SiLeetcode ,SiCodeforces  } from "react-icons/si";
 
 const getIcon = (icon) => {
   switch (icon) {
@@ -31,7 +31,10 @@ const getIcon = (icon) => {
       return <Linkedin className="w-full h-auto" strokeWidth={1.5} />;
     case "resume":
       return <NotebookText className="w-full h-auto" strokeWidth={1.5} />;
-
+    case "leetcode":
+      return <SiLeetcode className="w-full h-auto" strokeWidth={1.5} />;
+    case "codeforces":
+      return <SiCodeforces  className="w-full h-auto" strokeWidth={1.5} />;
     default:
       return <Home className="w-full h-auto" strokeWidth={1.5} />;
   }

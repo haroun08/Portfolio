@@ -7,12 +7,12 @@ License: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 Source: https://sketchfab.com/3d-models/diploma-frame-9030281e7df84ca8b544c2acaa3688a0
 Title: Diploma Frame
 */
-"use client"
+
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function DiplomaModel(props) {
-  const { nodes, materials } = useGLTF('/models/Diploma.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('/scene-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.pCube1_lambert1_0.geometry} material={materials.lambert1} rotation={[1.329, 0, 0]} scale={[0.007, 0.001, 0.008]} />
@@ -20,4 +20,4 @@ export default function DiplomaModel(props) {
   )
 }
 
-useGLTF.preload('/models/Diploma.glb')
+useGLTF.preload('/scene-transformed.glb')
