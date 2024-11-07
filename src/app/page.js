@@ -3,6 +3,7 @@ import bg from "../../public/background/home-background.jpg"
 import RenderModel from "./components/RenderModel";
 import SoftwareModel from "./components/models/3DModel";
 import Navigation from "./components/navigation";
+import DipModel from "./components/models/Diploma";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
         <Navigation></Navigation>
         <RenderModel>
           <SoftwareModel />
-
+          
           
         </RenderModel>
       </div>

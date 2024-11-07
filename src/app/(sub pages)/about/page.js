@@ -1,10 +1,8 @@
 import Image from "next/image";
 import bg from "../../../../public/background/about-background.png";
-import dynamic from "next/dynamic";
 import AboutDetails from "@/app/components/about";
 import RenderModel from "@/app/components/RenderModel";
-import DiplomaModal from "@/app/components/models/Diploma";
-import SoftwareModel from "@/app/components/models/3DModel";
+import DipModel from "@/app/components/models/Diploma";
 
 
 export const metadata = {
@@ -24,22 +22,21 @@ export default function About() {
 
       <div className="w-full h-3/5 xs:h-3/4 sm:h-screen absolute top-1/2 -translate-y-1/2 left-0 z-10">
         <RenderModel>
-          <DiplomaModal />
+          <DipModel />
         </RenderModel>
       </div>
 
       
-
-      <div className="relative w-full h-screen flex flex-col items-center justify-center">
+      <div className="relative w-full h-72 flex flex-col items-center justify-center">
         <div className="absolute flex flex-col items-center text-center top-1/2 sm:top-[20%] left-1/2 -translate-y-1/2 -translate-x-1/2">
           <h1 className="font-bold  text-6xl xs:text-7xl sm:text-8xl  lg:text-9xl text-accent">
             Haroun Barhoumi
           </h1>
-          <p className="font-light text-foreground text-lg">
-            Software Engineering Student
-          </p>
+          
         </div>
       </div>
+
+      
       <AboutDetails />
     </>
   );
