@@ -31,8 +31,8 @@ export const projectsData = [
     name: "Ai Short Video Generator",
     description: "Implemented an Ai Short Video Generator using NextJS.",
     date: "2024-11-16",
-    demoLink: "https://github.com/RamziHaddad/projet-soa-ecommerce-enit-2024-3AINFO2",
-    technologies: ["Spring Cloud", "Spring Boot", "Docker"],    
+    demoLink: "https://github.com/haroun08/AI-Video-Generator",
+    technologies: ["NextJS", "ShadCN", "Postgres","Clerk","Neon"],    
   },
   {
     id: 3,
