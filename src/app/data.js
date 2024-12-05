@@ -27,6 +27,14 @@ export const projectsData = [
     technologies: ["Spring Cloud", "Spring Boot", "Docker"],
   },
   {
+    id: 2,
+    name: "Ai Short Video Generator",
+    description: "Implemented an Ai Short Video Generator using NextJS.",
+    date: "2024-11-16",
+    demoLink: "https://github.com/RamziHaddad/projet-soa-ecommerce-enit-2024-3AINFO2",
+    technologies: ["Spring Cloud", "Spring Boot", "Docker"],    
+  },
+  {
     id: 3,
     name: "Replanto",
     description: "A Flutter app to manage and care for plants with features like watering schedules and plant profiles.",
@@ -43,7 +51,7 @@ export const projectsData = [
     technologies: ["Spring Boot", "Keycloak", "Docker", "Angular"],
   },
   {
-    id: 2,
+    id: 5,
     name: "DNA Data Storage",
     description: "An experimental project focused on storing data within DNA sequences, with potential applications in long-term digital data storage.",
     date: "2024-07-21",
@@ -51,7 +59,7 @@ export const projectsData = [
     technologies: ["Next.js", "Artificial Intelligence", "Blockchain", "DNA Data Storage"],
   },
   {
-    id: 10,
+    id: 6,
     name: "Movie-API",
     description: "A RESTful API for managing movies and reviews built with Spring Boot and MongoDB.",
     date: "2024-06-01",
@@ -59,7 +67,7 @@ export const projectsData = [
     technologies: ["Spring Boot", "Postman", "MongoDB"],
   },
   {
-    id: 6,
+    id: 7,
     name: "Transport Application",
     description: "TransportMVC is a comprehensive web application designed to streamline the management and booking of tours and travel destinations.",
     date: "2024-05-01",
@@ -67,7 +75,7 @@ export const projectsData = [
     technologies: ["C# .NET", "ASP.NET 8 MVC", "MySQL"],
   },
   {
-    id: 5,
+    id: 8,
     name: "Gym Plus",
     description: "Designed a full-stack gym management system with scheduling and membership management.",
     date: "2024-03-01",
@@ -75,7 +83,7 @@ export const projectsData = [
     technologies: ["Java", "Spring Boot", "MySQL", "JHipster", "Docker", "ReactJS"],
   },
   {
-    id: 7,
+    id: 9,
     name: "Full Stack Blog Website",
     description: "Built a blog platform with user registration, post creation, and commenting features.",
     date: "2024-01-01",
@@ -83,7 +91,7 @@ export const projectsData = [
     technologies: ["Symfony", "PHP", "MySQL"],
   },
   {
-    id: 8,
+    id: 10,
     name: "Project Management Site",
     description: "Developed a web-based project management platform for collaborative project tracking and management.",
     date: "2024-01-01",
@@ -99,7 +107,7 @@ export const projectsData = [
     technologies: ["Python", "Java", "OpenCV","Maven"],
   },
   {
-    id: 9,
+    id: 12,
     name: "Trading Simulator",
     description: "This C++ application simulates a trading environment, allowing users to experiment with different trading strategies.",
     date: "2023-03-03",
